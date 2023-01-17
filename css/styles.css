@@ -11403,7 +11403,7 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("/assets/img/call-to-action-bg-small.jpg");
+  background-image: url("../assets/img/call-to-action-bg-small.jpg");
   background-position: center;
   background-size: cover;
 }
