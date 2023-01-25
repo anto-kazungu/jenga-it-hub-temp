@@ -1,0 +1,37 @@
+.card-effect {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-effect:before {
+    content: "";
+    position: absolute;
+    background: #ff781f;
+    height: 150%;
+    width: 150%;
+    /* border-radius: 50%; */
+    z-index: -1;
+}
+
+.card-effect:hover {
+    color: #ffffff;
+}
+
+.card-effect:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+}
+
+.card-effect:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.card-effect:active:before {
+    background: #3a0ca3;
+    transition: 0s;
+}
